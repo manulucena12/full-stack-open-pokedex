@@ -16,8 +16,6 @@ jobs:
                 node-version: 18
             - name: install dependencies
               run: npm install
-            - name: Build
-              run: npm run build
             - name: Deploy to heroku
               uses: akhileshns/heroku-deploy@v3.13.15  
               with:
