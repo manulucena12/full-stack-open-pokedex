@@ -2,13 +2,13 @@ name: Say hello
 
 on:
   push:
-    branches: 
-      -manubranch
+    branches:
+      - master 
 
 jobs:
   hello_world:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - name: Echo
         run: |
-          echo "hi"     
+          echo "hi"
